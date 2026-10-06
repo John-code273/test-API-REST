@@ -1,23 +1,23 @@
-The `fast-uri` package is a popular dependency in Node.js projects, particularly those that need to handle URI parsing and serialization efficiently. It supports various features such as parsing and encoding URLs, handling query strings, and managing URL fragments. The package is known for its performance and ease of use, making it a reliable choice for many developers.
+O pacote `fast-uri` é uma dependência popular em projetos Node.js, especialmente naqueles que precisam lidar com a análise (parsing) e a serialização de URIs de forma eficiente. Ele oferece suporte a vários recursos, como analisar e codificar URLs, manipular *query strings* e gerenciar fragmentos de URL. O pacote é conhecido por seu desempenho e facilidade de uso, tornando-se uma escolha confiável para muitos desenvolvedores.
 
-Here's a quick overview of some of the key features of `fast-uri`:
+Aqui está uma breve visão geral de alguns dos principais recursos do `fast-uri`:
 
-1. **Parsing URLs**: The package can parse a URL string into its components (e.g., protocol, host, path, query, fragment).
+1. **Análise de URLs**: O pacote pode analisar uma string de URL e dividi-la em seus componentes (por exemplo: protocolo, host, caminho, query, fragmento).
 
-2. **Encoding and Decoding**: It can encode and decode URL components, ensuring that special characters are handled correctly.
+2. **Codificação e Decodificação**: Ele pode codificar e decodificar componentes de URL, garantindo que caracteres especiais sejam tratados corretamente.
 
-3. **Query String Handling**: The package provides utilities to manipulate query strings, such as encoding, decoding, and parsing them.
+3. **Manipulação de Query Strings**: O pacote fornece utilitários para manipular *query strings*, como codificá-las, decodificá-las e analisá-las.
 
-4. **Fragment Management**: It allows handling URL fragments, which are part of the URL after the `#` symbol.
+4. **Gerenciamento de Fragmentos**: Permite lidar com fragmentos de URL, que são a parte da URL situada após o símbolo `#`.
 
-5. **Performance**: The package is designed to be fast, making it suitable for use in high-performance applications.
+5. **Desempenho**: O pacote foi projetado para ser rápido, sendo adequado para uso em aplicações de alto desempenho.
 
-6. **Dependency Management**: `fast-uri` is a standalone package, which means it can be included in your project without any additional dependencies.
+6. **Gerenciamento de Dependências**: O `fast-uri` é um pacote independente (*standalone*), o que significa que pode ser incluído em seu projeto sem dependências adicionais.
 
-If you're interested in using `fast-uri` in your project, you can install it via npm with the following command:
+Se você tiver interesse em usar o `fast-uri` em seu projeto, pode instalá-lo via npm com o seguinte comando:
 
 bash
 npm install fast-uri
 
 
-This package is particularly useful for applications that require handling URLs in a lightweight and efficient manner.
+Este pacote é particularmente útil para aplicações que precisam lidar com URLs de maneira leve e eficiente.
