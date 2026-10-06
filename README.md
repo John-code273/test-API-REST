@@ -1,0 +1,38 @@
+From the package.json dependencies for your project, the following packages are listed under the "peer" field:
+
+- "@fastify/fastify": "^4.25.0"
+- "enhanced-resolve": "^5.26.0"
+- "envinfo": "^7.21.0"
+- "es-define-property": "^1.0.1"
+- "es-errors": "^1.3.0"
+- "es-module-lexer": "^2.3.2"
+- "es-object-atoms": "^1.1.2"
+- "es-set-tostringtag": "^2.1.0"
+- "escalade": "^3.2.0"
+- "events": "^3.3.0"
+- "fast-deep-equal": "^3.1.3"
+- "fast-uri": "^3.1.8"
+- "find-up": "^4.1.0"
+- "has-tostringtag": "^1.0.2"
+- "hasown": "^2.0.2"
+- "graceful-fs": "^4.2.4"
+- "get-intrinsic": "^1.2.6"
+- "has": "^5.0.0"
+- "https-proxy-agent": "^4.0.1"
+- "inquirer": "^8.0.0"
+- "json5": "^2.2.4"
+- "jsonpointer": "^5.0.1"
+- "lodash-es": "^4.17.21"
+- "merge": "^2.1.1"
+- "node-fetch": "^2.6.5"
+- "open": "^8.2.2"
+- "path-browserify": "^0.2.2"
+- "proxy-agent": "^6.0.0"
+- "tapable": "^2.3.3"
+- "trampoline-fn": "^3.0.1"
+- "url": "^0.11.0"
+- "validate-npm-package-name": "^5.0.0"
+
+These packages are marked as "peer" dependencies, which means they are not required to be installed by default but must be installed separately by the user or project that depends on this package. They are typically used to provide additional functionality that is not required for the core functionality of the package.
+
+If you have a specific question or need more information about any of these packages, feel free to ask!
