@@ -40,23 +40,24 @@ body{
     background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
+    width: 100%;
 }
 img{
-    width: 70%;
-    height: auto;
+    width: 50%;
+   
     display: block;
     margin: 1rem auto;
     border-radius: 10px;
     border: 2px solid var(--cor-primaria);
     image-resolution: 300dpi;
-}
-h2{
     text-align: center;
+}
+h2,h3{
     margin: 1rem 0;
     letter-spacing: 1px;
     font-size: var(--tamanho-md);
-    -webkit-text-stroke: 1px var(--cor-primaria);
-
+    -webkit-text-stroke: 1px var(white);
+    text-align: center;
 }
 
 .livros{
@@ -65,7 +66,7 @@ h2{
     padding: 1rem;
     border: 2px solid var(--cor-primaria);
     border-radius: 10px;
-    background-color: #fff;
-    width: 50%;
+    background-image: linear-gradient(to bottom right, var(--cor-primaria), var(--cor-secundaria));
+    width: 40%;
     max-width: 500px;
 }

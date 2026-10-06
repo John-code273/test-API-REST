@@ -11,8 +11,9 @@ btnCarregar.addEventListener('click', async () => {
         if (!response.ok) {
             throw new Error(`A API respondeu com o status ${response.status}.`);
         }
-
+        
         const data = await response.json();
+        console.log(data)
         const livros = data.docs;
 
         if (!Array.isArray(livros) || livros.length === 0) {
@@ -39,7 +40,11 @@ btnCarregar.addEventListener('click', async () => {
 
             livrosCount.appendChild(img);
         }
-
+        if (livro.author_name){
+            const author = document.createElement('h3');
+            author.textContent = livro.author_name[0] || 'Autor indisponível';
+            livrosCount.appendChild(author);
+        }
     } catch (error) {
         console.error('Não foi possível carregar um livro:', error);
 
