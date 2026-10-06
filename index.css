@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --cor-primaria: #1E90FF;
+    --cor-secundaria: #FFD700;
+    --tamanho-pq:1rem;
+    --tamanho-md:2rem;
+    --tamanho-gd:3rem;
+}
+
+.cabecalho{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 1rem;
+}
+
+button{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: var(--tamanho-pq);
+    cursor: pointer;
+    margin: 1rem auto;
+    display: block;
+}
+button:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 2px solid var(--cor-primaria);
+    image-resolution: 300dpi;
+}
+h2{
+    text-align: center;
+    margin: 1rem 0;
+    letter-spacing: 1px;
+    font-size: var(--tamanho-md);
+    -webkit-text-stroke: 1px var(--cor-primaria);
+
+}
+
+.livros{
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    background-color: #fff;
+    width: 50%;
+    max-width: 500px;
+}
